@@ -3,4 +3,4 @@ const parseBody = require("./parse-body");
 const staticFile = require("./static-file");
 
 
-module.exports = {mimeTypes, parseBody, staticFile}
+module.exports = { mimeTypes, parseBody, staticFile }

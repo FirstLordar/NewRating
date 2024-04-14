@@ -1,6 +1,6 @@
 const fs = require("fs");
 const http = require("http");
-const {defaultRouteController, gameRouteController, mainRouteController, voteRouteController} = require("./controllers/index");
+const { defaultRouteController, gameRouteController, mainRouteController, voteRouteController } = require("./controllers/index");
 
 
 const server = http.createServer((req, res) => {
@@ -22,4 +22,4 @@ const server = http.createServer((req, res) => {
       defaultRouteController(res, url);
   }
 });
-server.listen(3007);
+server.listen(3005);

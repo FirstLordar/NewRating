@@ -1,8 +1,11 @@
+const { createRating, updateRating } = require("./calculations")
 const config = require("./config")
 const makeRatingFile = require("./rating-file")
 
 
 module.exports = {
-    makeRatingFile, 
-    config
+    makeRatingFile,
+    config,
+    createRating,
+    updateRating,
 }
